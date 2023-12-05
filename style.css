@@ -1,0 +1,42 @@
+.heading{
+    font-family: philosopher;
+    font-size: 30px;
+    font-weight: 900;
+}
+.heading:hover{
+    color: white;
+}
+.links{
+    font-size: 20px;
+}
+.calcu{
+    font-family: mooli;
+    font-size: xx-large;
+    font-weight: 800;
+    color: blue;
+
+}
+.savimg{
+    width: 400px;
+    height: 400px;
+}
+.reg{
+    text-align: center;
+    font-family: Kaushan Script;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(35, 95, 35);
+}
+.log{
+    text-align: center;
+    font-family: Kaushan Script;
+    font-size: 40px;
+    font-weight: 700;
+    color: blue;
+}
+.bord1{
+background-color:rgb(181, 209, 238);
+}
+.bord2{
+    background-color:rgb(181, 238, 195);
+}

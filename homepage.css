@@ -1,0 +1,98 @@
+.navbar{
+    top: 0px;
+    position: sticky;
+}
+.heading{
+    font-family: philosopher;
+    font-size: 30px;
+    font-weight: 900;
+}
+.heading:hover{
+    color: white;
+}
+.links{
+    font-size: 20px;
+}
+.calcu{
+    font-family: mooli;
+    font-size: xx-large;
+    font-weight: 800;
+    color: blue;
+
+}
+.butn{
+    font-weight: 600;
+    font-family: mooli;
+    box-shadow: 1px 1px 1px black;
+
+}
+.border1{
+  
+    background-color: rgb(87, 134, 216);
+    border-radius: 10px;
+    box-shadow:1px 1px 1px black;
+}
+.border2{
+       
+    background-color: rgb(87, 134, 216);
+    border-radius: 10px;
+    box-shadow:1px 1px 1px 2px black;
+}
+.tex{
+    font-family: philosopher;
+
+}
+.head2{
+    text-align: center;
+    font-family: Croissant One;
+    font-weight: 500;
+}
+.head3{
+    text-align: center;
+    font-family: Mooli;
+    font-weight: 600;
+}
+.savimg{
+    width: 250px;
+    height: 250px;
+
+}
+.this{
+    font-family: philosopher;
+    text-align: center;
+    font-weight: 700;
+}
+.tab{
+    font-family: Mooli;
+}
+.budget{
+    text-align: center;
+    margin-top: 20px;
+    font-family:philosopher;
+    font-weight: 600;
+    color: white;
+
+}
+.bord{
+    background-color:rgba(0,0,0,0.9);
+    height: 270px;
+    border-radius: 20px;
+}
+.bud{
+    color: white;
+    font-family: philosopher;
+    font-size: 40px;
+}
+.budg{
+    color: white;
+    font-family: philosopher;
+    font-size: 60px;
+}
+#inner1,#inner2,#inner3{
+    text-align: center;
+}
+.bu{
+    color: white;
+    font-family: philosopher;
+    font-size:30px;
+}
