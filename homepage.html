@@ -36,16 +36,16 @@
             </ul>
           </div>
         </div>
-        <button class="btn btn-danger butn me-3" onclick="logout()">Logout</button>
+        <button class="btn btn-danger butn me-3" id="butnid" onclick="logout()">Logout</button>
     </nav>
 
     <div class="row w-100">
         <div class="col-lg-11 col-sm-10 col-xs-10  border1 mt-5 ms-lg-5 ">
-            <div class="row">
-                <div class="col-6  mt-5 ms-5">
+            <div class="row w-100">
+                <div class="col-lg-6 col-sm-6 col-xs-6  mt-5 ms-lg-5">
                     <div class="row w-100">
-                        <div class="col-1"></div>
-                        <div class="col-10 w-100">
+                        <div class="col-lg-1 col-sm-1 col-xs-1"></div>
+                        <div class="col-lg-10 col-sm-10 col-xs-10 w-100">
                             <div class="row mt-4">
                                 <div class="col-3"></div>
                                 <div class="col-3">
@@ -58,17 +58,17 @@
                             <input type="text " id="event" placeholder="Enter the event" class="tex form-control border-1 border-primary w-100 mt-4">
                             <input type="text " id="amount" placeholder="Enter the amount spent" class="tex form-control border-1 border-primary w-100 mt-4">
                             <div class="row mt-4">
-                                <div class="col-4"></div>
-                                <div class="col-4">
+                                <div class="col-lg-4 col-sm-4 col-xs-4"></div>
+                                <div class="col-lg-4 col-sm-4 col-xs-4">
                                     <button class="btn btn-danger w-100 mb-4 butn" onclick="enterData()" id="buttn">Enter</button>
                                 </div>
-                                <div class="col-4"></div>
+                                <div class="col-lg-4 col-sm-4 col-xs-4"></div>
                             </div>
                         </div>
-                        <div class="col-1"></div>
+                        <div class="col-lg-1 col-sm-1 col-xs-1"></div>
                     </div>
                 </div>
-                <div class="col-5 border2 mt-5 ms-5 mb-5">
+                <div class="col-lg-5 col-sm-5 col-xs-5 border2 mt-5 ms-3 mb-5">
                     <h4 class="head3 mt-5">Set an Approximate budget for a month and plan accordingly</h4>
                     <div><input type="text" class="form-control w-100 border-success mt-5" id="budget" placeholder="Enter Budget" ></div>
                     <div class="row mt-2">
@@ -78,9 +78,9 @@
                         </div>
                         <div class="col-4"></div>
                     </div>
-                    <div class="row mt-4">
-                        <div class="col-1"></div>
-                        <div class="col-10 bord mt-1">
+                    <div class="row mt-lg-4 ">
+                        <div class="col-gl-1 col-sm-1 col-xs-1"></div>
+                        <div class="col-lg-10 col-sm-10 col-xs-10 bord mt-1">
                              <h6 class="budget">BUDGET</h6>
                              <div class="row w-100">
                                  <div class="col-3"></div>
@@ -89,25 +89,25 @@
                              </div>
                              <div class="row w-100">
                                  <div class="col-lg-5 col-sm-5 col-xs-5" >
-                                    <h6 class="budget mt-4">TOTAL EXPENSE</h6>
+                                    <h6 class="budget mt-lg-4">TOTAL EXPENSE</h6>
                                     <div class="row w-100">
-                                        <div class="col-1"></div>
-                                        <div class="col-10 " id="inner2"></div>
-                                        <div class="col-1"></div>
+                                        <div class="col-lg-1 col-sm-1 col-xs-1"></div>
+                                        <div class="col-lg-10 col-lg-10 col-xs-10" id="inner2"></div>
+                                        <div class="col-lg-1 col-sm-1 col-xs-1"></div>
                                     </div>
                                  </div>
-                                 <div class="col-1"></div>
-                                 <div class="col-lg-6 col-sm-5 col-xs-5" >
-                                    <h6 class="budget mt-4">BUDGET BALANCE</h6>
+                                 <div class="col-lg-1 col-sm-1 col-xs-1"></div>
+                                 <div class="col-lg-6 col-sm-6 col-xs-6" >
+                                    <h6 class="budget mt-lg-4">BUDGET BALANCE</h6>
                                     <div class="row w-100">
-                                        <div class="col-1"></div>
-                                        <div class="col-10 " id="inner3"></div>
-                                        <div class="col-1"></div>
+                                        <div class="col-lg-1 col-sm-1 col-xs-1"></div>
+                                        <div class="col-lg-10 col-lg-10 col-xs-10 " id="inner3"></div>
+                                        <div class="col-lg-1 col-sm-1 col-xs-1"></div>
                                     </div>
                                  </div>
                              </div>
                         </div>
-                        <div class="col-1"></div>
+                        <div class="col-lg-1 col-sm-1 col-xs-1"></div>
                     </div>
                 </div>
             </div>
@@ -131,7 +131,7 @@
                     <tr>
                         <td colspan="1"></td>
                         <td colspan="1" id="tot">Total Amount: </td>
-                        <td colspan="1"><button class="btn btn-warning butn" onclick="PrintTable()">Print Detailed report</button></td>
+                        <td colspan="1"><button class="btn btn-warning butn bt" onclick="PrintTable()">Print Detailed report</button></td>
                     </tr>
                 </tfoot>
             </table>

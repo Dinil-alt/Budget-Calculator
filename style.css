@@ -44,12 +44,20 @@
 @media screen and (max-width:600px){
  .calcu{
     font-family: mooli;
-    font-size: large;
+    font-size: 14px;
     font-weight: 800;
     color: blue;
   }
   .bord1,.bord2{
     margin-left: 25px;
     margin-bottom: 20px;
-}
+ }
+ .savimg{
+    width: 200px;
+    height: 200px;
+ }
+ .btnn{
+    margin-left: 20px;
+ }
+
 }

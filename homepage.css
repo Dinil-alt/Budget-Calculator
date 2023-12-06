@@ -97,11 +97,37 @@
     font-size:30px;
 }
  @media screen and (max-width:600px){
-    .butn{
-        margin-left: 80%;
-    
+    #butnid{
+        margin-left: 83%;
+        font-size:12px;    
     }
     .border1{
         margin-left: 3%;
+    }
+    .bt{
+        font-weight: 400;
+        font-size: small;
+        font-family: mooli;
+        box-shadow: 1px 1px 1px black;
+        width: 100px;
+    
+    }
+    .budg{
+        color: white;
+        font-family: philosopher;
+        font-size: 30px;
+    }
+    .budget{
+        text-align: center;
+        margin-top: 15px;
+        font-family:philosopher;
+        font-weight: 600;
+        color: white;
+    
+    }
+    .bu{
+        color: white;
+        font-family: philosopher;
+        font-size:15px;
     }
  }
