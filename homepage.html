@@ -40,7 +40,7 @@
     </nav>
 
     <div class="row w-100">
-        <div class="col-11 border1 mt-5 ms-5">
+        <div class="col-lg-11 col-sm-10 col-xs-10  border1 mt-5 ms-lg-5 ">
             <div class="row">
                 <div class="col-6  mt-5 ms-5">
                     <div class="row w-100">
@@ -81,14 +81,14 @@
                     <div class="row mt-4">
                         <div class="col-1"></div>
                         <div class="col-10 bord mt-1">
-                             <h6 class="budget mt-4">BUDGET</h6>
+                             <h6 class="budget">BUDGET</h6>
                              <div class="row w-100">
                                  <div class="col-3"></div>
-                                 <div class="col-6 " id="inner1"></div>
+                                 <div class="col-6" id="inner1"></div>
                                  <div class="col-3"></div>
                              </div>
                              <div class="row w-100">
-                                 <div class="col-5 " >
+                                 <div class="col-lg-5 col-sm-5 col-xs-5" >
                                     <h6 class="budget mt-4">TOTAL EXPENSE</h6>
                                     <div class="row w-100">
                                         <div class="col-1"></div>
@@ -97,7 +97,7 @@
                                     </div>
                                  </div>
                                  <div class="col-1"></div>
-                                 <div class="col-6 " >
+                                 <div class="col-6 col-sm-5 col-xs-5" >
                                     <h6 class="budget mt-4">BUDGET BALANCE</h6>
                                     <div class="row w-100">
                                         <div class="col-1"></div>
@@ -125,13 +125,12 @@
                         <th scope="col">Date</th>
                         <th scope="col">Event</th>
                         <th scope="col">Amount</th>
-                        <th scope="col">Action</th>
                     </tr>
                 </thead>
                 <tfoot>
                     <tr>
                         <td colspan="1"></td>
-                        <td colspan="2">Total Amount: </td>
+                        <td colspan="1" id="tot">Total Amount: </td>
                         <td colspan="1"><button class="btn btn-warning butn" onclick="PrintTable()">Print Detailed report</button></td>
                     </tr>
                 </tfoot>

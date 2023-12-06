@@ -35,8 +35,21 @@
     color: blue;
 }
 .bord1{
-background-color:rgb(181, 209, 238);
+    background-color:rgb(181, 209, 238);
 }
 .bord2{
     background-color:rgb(181, 238, 195);
+}
+
+@media screen and (max-width:600px){
+ .calcu{
+    font-family: mooli;
+    font-size: large;
+    font-weight: 800;
+    color: blue;
+  }
+  .bord1,.bord2{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
 }

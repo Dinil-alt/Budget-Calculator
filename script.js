@@ -144,6 +144,7 @@ function enterData(date='N/A',event='N/A', amount='N/A') {
       inner3.innerHTML =`<div class="bu">
       <p>${bala}</p>
       <div>`
+      tot.innerHTML = `<div>Total Amount: ${exp}</div>`
       expense_record.push({date,event,amount})
       renderTable();
        }
@@ -151,19 +152,25 @@ function enterData(date='N/A',event='N/A', amount='N/A') {
     
 
   function renderTable(){
-    expense_record.reduceRight((expense,index)=>{
-        table_style.innerHTML+=`<tr >
-            <td>${expense.date}</td>
-            <td>${expense.event}</td>
-            <td>${expense.amount}</td>
-            <td><button onclick="deleteExpense(${index})" class="btn btn-primary btn-md">Delete</button></td>
-        </tr>`
-    });
+    if(expense_record.length==1){
+        expense_record.forEach((expense)=>{
+            table_style.innerHTML+=`<tr >
+                <td>${expense.date}</td>
+                <td>${expense.event}</td>
+                <td>${expense.amount}</td>
+            </tr>`
+        });
+    }
+    else{
+        expense_record.reduceRight((expense)=>{
+            table_style.innerHTML+=`<tr >
+                <td>${expense.date}</td>
+                <td>${expense.event}</td>
+                <td>${expense.amount}</td>
+            </tr>`
+        });
+    }
 }
-    function deleteExpense(index){
-        expense_record.delete(index);
-        // renderTable();
-      }
 
 
 //   buttn.addEventListener('click',enterData)

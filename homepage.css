@@ -96,3 +96,12 @@
     font-family: philosopher;
     font-size:30px;
 }
+ @media screen and (max-width:600px){
+    .butn{
+        margin-left: 80%;
+    
+    }
+    .border1{
+        margin-left: 3%;
+    }
+ }
