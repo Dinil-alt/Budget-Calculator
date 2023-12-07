@@ -113,7 +113,7 @@ function logout(){
 
 function enterBudget(){
     const budget = document.getElementById("budget").value;
-    inner1.innerHTML =`<div class="budg ">
+    inner1.innerHTML =`<div class="budg text-warning">
                             <p>${budget}</p>
                         <div>`
     
@@ -137,11 +137,11 @@ function enterData(date='N/A',event='N/A', amount='N/A') {
     else{
         // let inputs = [date,event,amount];
       exp = Number(exp)+Number(amount);
-      inner2.innerHTML =`<div class="bu col-lg-10 col-lg-10 col-xs-10">
+      inner2.innerHTML =`<div class="bu col-lg-10 col-lg-10 col-xs-10 text-danger">
       <p>${exp}</p>
       <div>`
       bala = Number(budget)-exp;
-      inner3.innerHTML =`<div class="bu col-lg-10 col-lg-10 col-xs-10">
+      inner3.innerHTML =`<div class="bu col-lg-10 col-lg-10 col-xs-10 text-success">
       <p>${bala}</p>
       <div>`
       tot.innerHTML = `<div>Total Amount: ${exp}</div>`
